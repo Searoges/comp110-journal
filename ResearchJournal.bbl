@@ -58,6 +58,14 @@ A.~Dey, ``Machine learning algorithms: A review,'' \emph{International Journal
   of Computer Science and Information Technologies}, vol.~7, no.~3, pp.
   1174--1179, 2016.
 
+\bibitem{TDGammon}
+G.~Tesauro, ``Temporal difference learning and td-gammon,'' \emph{Commun. ACM},
+  vol.~38, no.~3, pp. 58--68, Mar. 1995.
+
+\bibitem{TDLearningPseudoCode}
+F.~Kunz, ``An introduction to temporal difference learning,'' in \emph{Seminar
+  on Autonomous Learning Systems}, 2000.
+
 \bibitem{MDP}
 E.~Altman, \emph{Constrained Markov decision processes}.\hskip 1em plus 0.5em
   minus 0.4em\relax CRC Press, 1999, vol.~7.

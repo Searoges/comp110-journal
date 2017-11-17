@@ -6,19 +6,17 @@
 \usepackage{multicol, float}
 \usepackage[hidelinks]{hyperref}
 \usepackage[none]{hyphenat}
-\usepackage{setspace}
+%\usepackage{setspace}
 \usepackage{graphicx}
-\usepackage{cite}
-\usepackage[export]{adjustbox}
-\doublespace
+%\usepackage[export]{adjustbox}
 \title{Research Journal Based On A. M. Turing, Computing Machinery and Intelligence}
 \subtitle{COMP110 - Research Journal}
 \author{1700522}
 \begin{document}
 	\maketitle
-	\begin{multicols}{2}
+	%\begin{multicols}{2}
 	\section{Introduction}
-	In 1950 Alan Turing posed the question ``Can machines think?''\cite{turingComputing} a 		 question that to this day has not truly been answered. Artificial Intelligence or AI research has a number of focuses exploring Turing's initial question utilising multiple methods. This journal will be looking into the use of AI in video games to create what Bridger callas a ``brain vs brain''\cite{BridgerFundamentalAI} scenario. It is important in the context of this journal to understand the difference between machine learning and deep learning as well as what the Turing Test is. 
+	In 1950 Alan Turing posed the question ``Can machines think?''\cite{turingComputing} a question that to this day has not truly been answered. Artificial Intelligence or AI research has a number of focuses exploring Turing's initial question utilising multiple methods. This journal will be looking into the use of AI in video games to create what Bridger calls a ``brain vs brain''\cite{BridgerFundamentalAI} scenario. It is important in the context of this journal to understand the difference between machine learning and deep learning as well as what the Turing Test is. 
 	\section{The Imitation Game}
 The Imitation Game is often referred to as the `Turing Test' and was set out by Alan Turing in Computing Machinery and Intelligence\cite{turingComputing}. The Imitation Game tests an AI to see if it can evolve and adapt to a conversation the same as a human would. The imitation game requires an AI to be able to work without perfect information, this is the only way the ``interrogator'' will not be able to tell if it is a person or computer. As it currently stands no AI has ever truly passed Imitation Game. This delves into the field of artificial human interaction as this is what the Turing Test is based on. While the Imitation Game tests if a human can be fooled by an AI is this the best place to focus our research? It is the position of this journal that Turing's ideas for AI were in fact flawed and the best focus for AI research is applying AI to problem solving as to best apply AI to benefit society.   
 	\section{Machine Learning vs Deep Learning}
@@ -29,7 +27,7 @@ The Imitation Game is often referred to as the `Turing Test' and was set out by 
 		Machine Learning is split into 3 types of algorithms; Supervised learning, unsupervised learning and reinforcement learning. Supervised Learning algorithms can be described as ``The algorithm consist of a target / outcome variable (or dependent variable) which is to be predicted from a given set of predictors (independent variables). Using these set of variables, we generate a function that map inputs to desired outputs. The training process continues until the model achieves a desired level of accuracy on the training data.''\cite{EssentialMachineLearningAlgorithms}.
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=0.5\textwidth,inner] {pseudocodeDecisionTree.png}
+	\includegraphics[width=0.5\textwidth] {pseudocodeDecisionTree.png}
 	\caption{Pseudo code for Decision Tree \cite{MachineLearningAlgorithmsReview}}
 	\label{DecisionTreePseudoCode}
 	\end{center}
@@ -39,7 +37,7 @@ Figure \ref{DecisionTreePseudoCode}	above shows the algorithm for a decision tre
 		 Unsupervised Learning algorithms can be described as ``This algorithm, we do not have any target or outcome variable to predict / estimate.  It is used for clustering population in different groups, which is widely used for segmenting customers in different groups for specific intervention.''\cite{EssentialMachineLearningAlgorithms}.
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[width=0.5\textwidth,inner] {pseudoCodeKCluster.png}
+	\includegraphics[width=0.5\textwidth] {pseudoCodeKCluster.png}
 	\caption{Pseudo code for k-means clustering \cite{MachineLearningAlgorithmsReview}}
 	\label{KMeansClusteringPseudoCode}
 	\end{center}
@@ -48,11 +46,28 @@ Figure \ref{DecisionTreePseudoCode}	above shows the algorithm for a decision tre
 Figure \ref{KMeansClusteringPseudoCode} shows the algorithm for k-means clustering, this is a type of unsupervised learning algorithm.
 
 		  Reinforcement Learning algorithms can be described as ``This algorithm, the machine is trained to make specific decisions. It works this way: the machine is exposed to an environment where it trains itself continually using trial and error. This machine learns from past experience and tries to capture the best possible knowledge to make accurate business decisions. ''\cite{EssentialMachineLearningAlgorithms}.
-		  
-The Markov decision processes is an example of reinforcement learning which is a mathematical framework that can be used in combination with dynamic programming to solve optimisation type problems the algorithm is as follows:
+Temporal Difference Learning, (or TD learning) is a reinforcement learning algorithm that was used in 1995 by Tesauro to play backgammon \cite{TDGammon}. TD-Gammon was the attempt to make use of TD learning to play the game backgammon at a high level. The results of Tesauro's research showed promise for reinforcement learning which could then be applied to other AI research in later years. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth] {pseudoCodeTDLearning.png}
+		\caption{Pseudo code for temporal difference learning}
+		\cite{TDLearningPseudoCode}
+		\label{TemporalDifferenceLearningPseudoCode}
+	\end{center}
+\end{figure}
+Figure \ref{TemporalDifferenceLearningPseudoCode} shows the algorithm for TD learning, this is a common refinforcement learning algorithm.
+The Markov decision processes is a mathematical framework used within reinforcement learning. The MDP framework can be used in combination with dynamic programming to solve optimisation type problems the algorithm is as follows:
 $$
 (S, A, P.(\cdot,\cdot), R.(\cdot , \cdot), \gamma) 
 $$
+\begin{itemize}
+	\item $S$ a potentially finite set of states
+	\item $A$ a potentially finite set of actions ($A_{s}$ is the set of actions from the state of $s$)
+	\item $P_{a}(s,s')$ is the probability that action $a$ in the state of $s$ at a given time will result in state $s'$ at the next time step
+	\item$R_{a}(s,s')$ is the expected immediate reward from the change to $s'$ from $s$ as a direct result of $a$
+	\item $\gamma \in [0,1] $ is the discount factor. This is the difference in future and present rewards.
+\end{itemize}
 The aim of MDP is to chose a policy ($\pi$) that maximises the function for rewards with the problem:
 $$
 \sum_{t=0}^{\infty} \gamma^{t}R_{a_{t}}(s_{t},s_{t}+1) 
@@ -65,7 +80,7 @@ This is done through a combination of mathematical operations which allow the AI
 
 
 		\subsection{What is Deep Learning?}
-		Deep Learning is a method of training an AI as though it was a human brain, making use of articical neurons to simulate human learning as described by Philbin\cite{CrashCourse}. Neural networks have recently. Deep Learning has been applied to research tasks across the world, one such example was in 2016 at Chungnam Nationality University in Korea, \cite{DeepLearningSmartwatches}. Lee's team discovered that they could use Deep Learning to work out how to reduce the distraction in smartwatch users. This application of artificial intelligence is very different to what has been seen so far in this journal. Most of the AIs this journal has looked at have been dedicated AIs, designed to to a single task well. Deep Learning AIs make use of artificial neural nets\cite{CrashCourse} and as such have the potential to be more like the Artificial Intelligence that Turing was referring to in 1950\cite{turingComputing}. This use of Deep Learning for simulating people in research was also used in Taipei at Tamkang University to assess the sentiment in reviews on Google Play\cite{GooglePlayTaipei}. This is what appears to be the use of Deep Learning, the simulation of human activity. This is further reinforced by Huawei making use of Deep Learning to aid in the design of their phones\cite{huawei}.
+		Deep Learning is a method of training an AI as though it was a human brain, making use of artifical neurons to simulate human learning as described by Philbin\cite{CrashCourse}. Neural networks have recently. Deep Learning has been applied to research tasks across the world, one such example was in 2016 at Chungnam Nationality University in Korea, \cite{DeepLearningSmartwatches}. Lee's team discovered that they could use Deep Learning to work out how to reduce the distraction in smartwatch users. This application of artificial intelligence is very different to what has been seen so far in this journal. Most of the AIs this journal has looked at have been dedicated AIs, designed to to a single task well. Deep Learning AIs make use of artificial neural nets\cite{CrashCourse} and as such have the potential to be more like the Artificial Intelligence that Turing was referring to in 1950\cite{turingComputing}. This use of Deep Learning for simulating people in research was also used in Taipei at Tamkang University to assess the sentiment in reviews on Google Play\cite{GooglePlayTaipei}. This is what appears to be the use of Deep Learning, the simulation of human activity. This is further reinforced by Huawei making use of Deep Learning to aid in the design of their phones\cite{huawei}.
 
 
 	\section{How does Machine Learning \& Deep Learning Compare?}
@@ -75,7 +90,8 @@ This is done through a combination of mathematical operations which allow the AI
 	
 	
 	\newpage
-	\bibliography{references}{}
 	\bibliographystyle{ieeetran}
-	\end{multicols}
+	\bibliography{references}{}
+	
+	%\end{multicols}
 \end{document}

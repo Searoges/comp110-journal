@@ -1,27 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.21)  15 NOV 2017 03:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.17)  17 NOV 2017 15:26
 entering extended mode
 **./ResearchJournal.tex
 (ResearchJournal.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
+
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cl
+s
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.st
+y
 Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
 Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.st
+y
 Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.st
+y
 Package: tocbasic 2017/09/07 v3.24 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
@@ -44,11 +49,13 @@ Package scrartcl Info: You've used standard option `10pt'.
 Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
 ine 2080.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize10pt.clo"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize10pt
+.clo
 File: scrsize10pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (10pt
 )
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.st
+y
 Package: typearea 2017/09/07 v3.24 KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count79
@@ -100,8 +107,7 @@ LaTeX Info: Redefining \textsubscript on input line 4161.
 \c@table=\count87
 Class scrartcl Info: Redefining `\numberline' on input line 5319.
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -311,7 +317,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count113
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -348,13 +354,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.sty"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\latex\hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language76
 LaTeX Info: Redefining \_ on input line 43.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -377,80 +380,25 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
-)
-\XKV@depth=\count121
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box58
-)
-\tc@llx=\dimen127
-\tc@lly=\dimen128
-\tc@urx=\dimen129
-\tc@ury=\dimen130
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen131
-\adjbox@Height=\dimen132
-\adjbox@Depth=\dimen133
-\adjbox@Totalheight=\dimen134
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count122
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box59
-\sift@deathcycles=\count123
-\@vwid@loff=\dimen135
-\@vwid@roff=\dimen136
-))
 (ResearchJournal.aux)
 \openout1 = `ResearchJournal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 15.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -458,30 +406,30 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (ResearchJournal.out) (ResearchJournal.out)
 \@outlinefile=\write3
 \openout3 = `ResearchJournal.out'.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\cr198069\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen137
-\scratchbox=\box61
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen138
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count122
+\scratchdimen=\dimen127
+\scratchbox=\box59
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen128
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks25
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -495,12 +443,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -508,205 +456,110 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (0.96571pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 ac-cord-ing to the Ox-ford dictionary[[]]. This means that ma-c
+hine learn-ing works through
+ []
+
+
+Overfull \hbox (6.88217pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 and chess[[]]. This re-search lead to the `Deep Blue' de-feat-i
+ng the world chess champion[[]]. 
+ []
+
 <pseudocodeDecisionTree.png, id=49, 231.11343pt x 358.33875pt>
 File: pseudocodeDecisionTree.png Graphic file (type png)
 
 <use pseudocodeDecisionTree.png>
-Package pdftex.def Info: pseudocodeDecisionTree.png used on input line 32.
+Package pdftex.def Info: pseudocodeDecisionTree.png used on input line 30.
 (pdftex.def)             Requested size: 186.72122pt x 289.50917pt.
 
-Underfull \hbox (badness 5802) in paragraph at lines 29--36
-[]\OT1/cmr/m/n/10 Machine Learn-ing is split into 3
+Overfull \hbox (6.42865pt too wide) in paragraph at lines 27--34
+[]\OT1/cmr/m/n/10 Machine Learn-ing is split into 3 types of al-go-rithms; Su-p
+er-vised learn-ing, un-su-per-vised
  []
 
-[2] <pseudoCodeKCluster.png, id=63, 224.33812pt x 271.0125pt>
+[2] <pseudoCodeKCluster.png, id=64, 224.33812pt x 271.0125pt>
 File: pseudoCodeKCluster.png Graphic file (type png)
 
 <use pseudoCodeKCluster.png>
-Package pdftex.def Info: pseudoCodeKCluster.png used on input line 42.
+Package pdftex.def Info: pseudoCodeKCluster.png used on input line 40.
 (pdftex.def)             Requested size: 186.72122pt x 225.57715pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-[][]\OT1/cmr/m/n/10 Pseudo code for k-means
- []
-
-[3 <./pseudocodeDecisionTree.png> <./pseudoCodeKCluster.png>]
-Underfull \hbox (badness 7667) in paragraph at lines 64--65
-\OT1/cmr/m/n/10 within ma-chine learn-ing, specif-i-cally
- []
-
-[4] [5] [6] (ResearchJournal.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-[]\OT1/cmr/m/n/10 A. M. Tur-ing, ``Com-put-ing
+ [3 <./pseudocodeDecisionTree.png>]
+Overfull \hbox (1.03043pt too wide) in paragraph at lines 48--50
+[]\OT1/cmr/m/n/10 Reinforcement Learn-ing al-go-rithms can be de-scribed as ``T
+his al-go-rithm, the ma-chine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
-\OT1/cmr/m/n/10 ``Fun-da-men-tals of ar-ti-fi-cial
+Overfull \hbox (1.30826pt too wide) in paragraph at lines 48--50
+\OT1/cmr/m/n/10 re-in-force-ment learn-ing al-go-rithm that was used in 1995 by
+ Tesauro to play backgam-mon
  []
 
+<pseudoCodeTDLearning.png, id=77, 439.6425pt x 246.1697pt>
+File: pseudoCodeTDLearning.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-[]\OT1/cmr/m/n/10 C. E. Shan-non, ``Pro-gram-ming
- []
+<use pseudoCodeTDLearning.png>
+Package pdftex.def Info: pseudoCodeTDLearning.png used on input line 53.
+(pdftex.def)             Requested size: 373.44246pt x 209.10999pt.
+ [4 <./pseudoCodeKCluster.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 65.
 
-
-Underfull \hbox (badness 7576) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 a com-puter for play-ing chess,''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-[]\OT1/cmr/m/n/10 ``Essentials of ma-chine learn-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-\OT1/cmr/m/n/10 al-go-rithms (with python
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-\OT1/cmr/m/n/10 and r codes),'' []$https : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
-\OT1/cmr/m/n/10 analyticsvidhya . com / blog / 2017 / 09 /
- []
-
-
-Overfull \hbox (11.83476pt too wide) in paragraph at lines 52--55
-\OT1/cmr/m/n/10 common-[]machine-[]learning-[]algorithms/$[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-[]\OT1/cmr/m/n/10 A. Dey, ``Ma-chine learn-ing
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 62--64
-[]\OT1/cmr/m/n/10 E. Alt-man, \OT1/cmr/m/it/10 Con-strained Markov
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-[]\OT1/cmr/m/n/10 C. B. Browne, E. Pow-ley,
- []
-
-
-Underfull \hbox (badness 6001) in paragraph at lines 66--70
-\OT1/cmr/m/n/10 D. Perez, S. Samoth-rakis, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-\OT1/cmr/m/it/10 Trans-ac-tions on Com-pu-ta-tional
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 77--81
-[]\OT1/cmr/m/n/10 A. San-tos, P. A. San-tos, and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--81
-\OT1/cmr/m/n/10 in \OT1/cmr/m/it/10 Com-pu-ta-tional In-tel-li-gence
- []
-
-
-Underfull \hbox (badness 8189) in paragraph at lines 77--81
-\OT1/cmr/m/it/10 and Games (CIG), 2017 IEEE
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-\OT1/cmr/m/n/10 & ar-ti-fi-cial in-tel-li-gence: Crash
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-\OT1/cmr/m/n/10 course com-puter sci-ence #34),''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-[]$\OT1/cmr/m/n/10 https : / / www . youtube . com / watch ?
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-\OT1/cmr/m/n/10 v = z-[]EtmaFJieY$[], PBS Dig-i-tal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
-\OT1/cmr/m/n/10 users with deep learn-ing,'' in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
-\OT1/cmr/m/it/10 Con-fer-ence on Human-Computer
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 95--97
-[]\OT1/cmr/m/n/10 Y.-D. L. Min-Yuh Day, ``Deep
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-\OT1/cmr/m/n/10 learn-ing for sen-ti-ment anal-y-sis
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--104
-\OT1/cmr/m/n/10 In-ter-na-tional World Wide Web
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--104
-\OT1/cmr/m/n/10 Con-fer-ences Steer-ing Com-mit-tee,
- []
-
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
+ [5 <./pseudoCodeTDLearning.png>] [6] [7] (ResearchJournal.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+[]\OT1/cmr/m/n/10 ``Essentials of ma-chine learn-ing al-go-rithms (with python
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+\OT1/cmr/m/n/10 and r codes),'' []$https : / / www . analyticsvidhya . com / bl
+og / 2017 / 09 /
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 74--78
+[]\OT1/cmr/m/n/10 C. B. Browne, E. Pow-ley, D. White-house, S. M. Lu-cas, P. I.
+ Cowl-ing,
+ []
+
+[8])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (ResearchJournal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `ResearchJournal.out' has not changed.
 (rerunfilecheck)             Checksum: A161336986D5BBC4E3E6CA2DEB35FBD1;483.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 13 (\begingroup)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+ ) 
 Here is how much of TeX's memory you used:
- 9113 strings out of 493323
- 144006 string characters out of 3139057
- 332172 words of memory out of 3000000
- 12498 multiletter control sequences out of 15000+200000
+ 8250 strings out of 493323
+ 130825 string characters out of 3139056
+ 310414 words of memory out of 3000000
+ 11669 multiletter control sequences out of 15000+200000
  8711 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,54p,8857b,1512s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pf
-b>
-Output written on ResearchJournal.pdf (8 pages, 324617 bytes).
+ 42i,7n,51p,8857b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ResearchJournal.pdf (9 pages, 366218 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
